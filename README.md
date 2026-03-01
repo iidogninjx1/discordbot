@@ -16,6 +16,8 @@ on seperate lines
 
 in terminall run:
 node src/register-commands.js
+
+
 nodemon
 
 then ur done!
