@@ -1,7 +1,7 @@
 to run:
 
-open in vscode
-in terminal
+open in vscode,
+in terminal:
 npm install
 
 in the root create a ".env" file. 
