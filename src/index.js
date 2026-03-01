@@ -1,6 +1,6 @@
 // packages
 require('dotenv').config();
-const { Client, IntentsBitField } = require('discord.js');
+const { Client, IntentsBitField, SlashCommandBuilder } = require('discord.js');
 // create a new client instance and sets the intents
 const client = new Client({
   intents  : [
@@ -25,7 +25,13 @@ client.on('messageCreate', (message) => {
   }
 });
 
+client.on('interactionCreate',  (interaction) => {
+if (!interaction.isChatInputCommand()) return;
 
+if(interaction.commandName === 'trap') {
+  interaction.reply('https://www.youtube.com/watch?v=MfxNZDAU1TE');
+}
+});
 
 
 
