@@ -5,13 +5,14 @@ in terminal:
 npm install
 
 in the root create a ".env" file. 
-in the env file type:
-(not in brackets)
+in the env file type (not in brackets):
+
 
 TOKEN=[YOUR BOT TOKEN]
 GUILD_ID=[YOUR SERVER ID]
 CLIENT_ID=[YOUR BOT'S ID]
 
+on seperate lines
 
 in terminall run:
 node src/register-commands.js
